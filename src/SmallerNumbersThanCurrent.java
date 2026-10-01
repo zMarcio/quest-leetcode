@@ -1,16 +1,4 @@
-import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.HashMap;
-
 public class SmallerNumbersThanCurrent {
-
-    static void main(String[] args) {
-        int[] nums = {8,1,2,2,3};
-        int[] result = new SmallerNumbersThanCurrent().smallerNumbersThanCurrent(nums);
-        System.out.println(Arrays.toString(result));
-
-    }
-
     public int[] smallerNumbersThanCurrent(int[] nums) {
 
         int aux = 0;

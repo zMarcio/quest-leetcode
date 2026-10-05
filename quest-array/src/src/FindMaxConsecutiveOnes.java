@@ -1,3 +1,5 @@
+package src;
+
 public class FindMaxConsecutiveOnes {
 
     public int findMaxConsecutiveOnes(int[] nums) {

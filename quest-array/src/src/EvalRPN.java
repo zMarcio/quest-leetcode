@@ -1,6 +1,5 @@
 package src;
 import java.util.ArrayDeque;
-import java.util.Arrays;
 import java.util.Deque;
 
 class EvalRPN {

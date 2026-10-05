@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package src;
 
 public class FindErrorNums {
     public int[] findErrorNums(int[] nums) {

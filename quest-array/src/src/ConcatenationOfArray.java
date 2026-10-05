@@ -1,3 +1,5 @@
+package src;
+
 class ConcatenationOfArray {
     public int[] getConcatenation(int[] nums) {
         int[] result = new int[nums.length * 2];

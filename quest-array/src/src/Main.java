@@ -1,10 +1,8 @@
 import src.ExclusiveTime;
+import src.FinalPrices;
 
 void main() {
-    int n = 1;
-//    ArrayList<String> logs = new ArrayList<>(Arrays.asList("0:start:0","1:start:2","1:end:5","0:end:6"));
-    ArrayList<String> logs = new ArrayList<>(Arrays.asList("0:start:0","0:start:2","0:end:5","0:start:6","0:end:6","0:end:7"));
-
-    ExclusiveTime teste = new ExclusiveTime();
-    teste.exclusiveTime(n , logs);
+    int[] prices = new int[] {8,4,6,2,3};
+    int[] finalPrices = new FinalPrices().finalPrices(prices);
+//    System.out.println(Arrays.toString(finalPrices));
 }
